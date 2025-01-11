@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "sisterhood",
+  "version": "${version}",
+  "name": "Sisterhood",
+  "description": "",
+  "authors": [
+    "harleylizard"
+  ],
+  "credits": [],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "arr",
+  "icon": "assets/sisterhood/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.harleylizard.sisterhood.common.Sisterhood"
+    ],
+    "client": [
+      "com.harleylizard.sisterhood.client.SisterhoodClient"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
